@@ -1,0 +1,144 @@
+header{
+    background-image: url("h.jpg");
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat ;
+	background-size:cover ;
+    margin: 3px
+    
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+i{
+    font-size: 40px;
+}
+
+
+p{
+    color:black;
+    font-size: 15px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    width: 100px;
+    margin-right: 50px;
+  }
+  
+  li a:hover {
+    background-color:black;
+  }
+  .entete{
+    width: 70%;
+   margin: auto;
+   align-items: center;
+   padding-top: 120px;
+   
+}
+.entete h1{
+    color:black;
+    text-transform: capitalize;
+    margin-right: 759px;
+    webkit-text-stroke: 8px;
+	webkit-backround-clip: text;
+	background-clip: text;
+	background-position: 0 0;
+
+}
+button{
+    background-color:blue;
+    height: 39.1px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: white;
+}
+input{
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.entete .bouton a{
+    text-decoration: none;
+    color: #fff;
+    background-color:blue;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+/* H1 */
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 50px 0px;
+    color: black;
+}
+
+.col {
+    border: 0px solid black;
+   
+    height:250px;
+    width:30%;
+    margin-left:2.1%;
+    display: inline-block;
+    
+
+    
+}
+
+
+.col-left {
+    border: 0px solid black;
+   
+    margin-left: 30px;
+}
+.col-mid {
+    border: 0px solid black; 
+}
+.col-right {
+    border: 0px solid black;
+   
+   
+button{
+    background-color: blue;
+}
+input{
+    height: 30px;
+}
+  
+  .active {
+    color: whitesmoke;
+  }
+  input[type=submit] {
+    background-color: ;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border:1px solid white ;
+    cursor: pointer;
+    width: 12%;
+    height: 41px;
+   
+   }
+   input[type=submit]{
+
+   
+    border: 1px solid
+    border-radius: 10px 10px 10px 10px; 
+   
+   }
